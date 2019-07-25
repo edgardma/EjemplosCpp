@@ -21,13 +21,24 @@ void Vehiculo::detener() {
 }
 
 void Vehiculo::set_direccion(int valor) {
-
+    direccion = valor;
 }
 
 std::string Vehiculo::get_dueno() {
-    return dueno->get_nombre();
+    if (dueno != nullptr)
+        return dueno->get_nombre();
+    else
+        return "Auto no tiene dueno asignado";
 }
 
 std::string Vehiculo::get_modelo() {
     return modelo;
+}
+
+int Vehiculo::get_velocidad_x() {
+    return x;
+}
+
+int Vehiculo::get_velocidad_y() {
+    return y;
 }

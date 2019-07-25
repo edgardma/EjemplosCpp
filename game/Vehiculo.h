@@ -35,6 +35,8 @@ public:
     void set_direccion(int valor);
     std::string get_dueno();
     std::string get_modelo();
+    int get_velocidad_x();
+    int get_velocidad_y();
 };
 
 

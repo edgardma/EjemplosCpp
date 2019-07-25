@@ -12,28 +12,19 @@
 
 class Automovil : public Vehiculo {
 private:
-    int x;
-    int y;
-    int largo;
-    int ancho;
     char color;
-    std::string modelo;
-    Persona* dueno;
     std::string placa;
     std::vector<Rueda*> ruedas;
-    int vx;
-    int vy;
-    int direccion;
 
 public:
     Automovil(int px, int py, int plargo, int pancho,
             char pcolor, std::string pmodelo, Persona* pdueno,
             std::string pplaca,
             int pvx, int pvy, int pdireccion):
-            x{px}, y{py}, largo{plargo},
-            ancho{pancho}, color{pcolor}, modelo{std::move(pmodelo)},
-            dueno{pdueno}, placa{std::move(pplaca)}, vx{pvx},
-            vy{pvy}, direccion{pdireccion} {
+            Vehiculo(px, py, plargo, pancho,
+                    pmodelo, pdueno, pvx, pvy, pdireccion),
+            color{pcolor},
+            placa{std::move(pplaca)} {
         for(int i = 0; i < 4; i++) {
             ruedas.push_back(new Rueda(4, 12));
         }
@@ -44,15 +35,6 @@ public:
             delete ruedas[i];
         }
     }
-    void enceder();
-    void acelelar();
-    void frenar();
-    void detener();
-    void set_direccion(int valor);
-    std::string get_dueno();
-    std::string get_modelo();
-    int get_velocidad_x();
-    int get_velocidad_y();
 };
 
 
