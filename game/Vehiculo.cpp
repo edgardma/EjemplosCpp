@@ -36,9 +36,9 @@ std::string Vehiculo::get_modelo() {
 }
 
 int Vehiculo::get_velocidad_x() {
-    return x;
+    return vx;
 }
 
 int Vehiculo::get_velocidad_y() {
-    return y;
+    return vy;
 }
