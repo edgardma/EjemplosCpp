@@ -11,8 +11,7 @@ private:
     int ancho;
 public:
     Vehiculo(int largo, int ancho);
-    virtual void mover();
+    virtual void mover() = 0;
 };
-
 
 #endif //POLIMORFISMO_VEHICULO_H

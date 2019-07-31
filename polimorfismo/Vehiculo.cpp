@@ -10,6 +10,3 @@ Vehiculo::Vehiculo(int largo, int ancho) :
 
 }
 
-void Vehiculo::mover() {
-    std::cout << "Mover\n";
-}
