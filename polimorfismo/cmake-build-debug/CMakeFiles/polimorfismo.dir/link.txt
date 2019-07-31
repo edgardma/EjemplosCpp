@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/polimorfismo.dir/main.cpp.o CMakeFiles/polimorfismo.dir/Vehiculo.cpp.o CMakeFiles/polimorfismo.dir/Automovil.cpp.o  -o polimorfismo 

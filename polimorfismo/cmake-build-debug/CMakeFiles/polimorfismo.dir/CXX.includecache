@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emarquez/codigo/github/EjemplosCpp/polimorfismo/Automovil.h
+Vehiculo.h
+/home/emarquez/codigo/github/EjemplosCpp/polimorfismo/Vehiculo.h
+
+/home/emarquez/codigo/github/EjemplosCpp/polimorfismo/Vehiculo.h
+
+/home/emarquez/codigo/github/EjemplosCpp/polimorfismo/main.cpp
+iostream
+-
+Vehiculo.h
+/home/emarquez/codigo/github/EjemplosCpp/polimorfismo/Vehiculo.h
+Automovil.h
+/home/emarquez/codigo/github/EjemplosCpp/polimorfismo/Automovil.h
+
