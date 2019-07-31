@@ -1,0 +1,3 @@
+/home/emarquez/codigo/github/EjemplosCpp/game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/emarquez/codigo/github/EjemplosCpp/game/cmake-build-debug/CMakeFiles/game.dir
+/home/emarquez/codigo/github/EjemplosCpp/game/cmake-build-debug/CMakeFiles/edit_cache.dir

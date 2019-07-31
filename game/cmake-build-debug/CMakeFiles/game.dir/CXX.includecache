@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emarquez/codigo/github/EjemplosCpp/game/Persona.h
+string
+-
+
+/home/emarquez/codigo/github/EjemplosCpp/game/Vehiculo.cpp
+Vehiculo.h
+/home/emarquez/codigo/github/EjemplosCpp/game/Vehiculo.h
+
+/home/emarquez/codigo/github/EjemplosCpp/game/Vehiculo.h
+string
+-
+Persona.h
+/home/emarquez/codigo/github/EjemplosCpp/game/Persona.h
+
