@@ -6,7 +6,7 @@
 #include <iostream>
 
 Vehiculo::Vehiculo(int largo, int ancho) :
-    largo {largo}, ancho {ancho} {
+    largo {largo}, ancho {ancho}, velocidad{12} {
 
 }
 

@@ -9,8 +9,10 @@
 
 class Automovil : public Vehiculo {
 public:
-    Automovil() : Vehiculo(40, 20) {}
+    Automovil(int largo, int ancho) :
+        Vehiculo(largo, ancho) {}
     void mover();
+    void mover(int velocidad);
 };
 
 #endif //POLIMORFISMO_AUTOMOVIL_H

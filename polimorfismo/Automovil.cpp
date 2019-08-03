@@ -6,6 +6,12 @@
 #include <iostream>
 
 void Automovil::mover() {
-    std::cout << "Mover Automovil\n";
+    std::cout << "Mover Automovil a la velocidad: "
+    << velocidad << "\n";
+}
+
+void Automovil::mover(int velocidad) {
+    this->velocidad = velocidad;
+    Automovil::mover();
 }
 
