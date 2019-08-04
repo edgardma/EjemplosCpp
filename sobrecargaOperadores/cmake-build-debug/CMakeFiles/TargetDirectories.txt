@@ -1,0 +1,3 @@
+/home/emarquez/codigo/github/EjemplosCpp/sobrecargaOperadores/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/emarquez/codigo/github/EjemplosCpp/sobrecargaOperadores/cmake-build-debug/CMakeFiles/sobrecargaOperadores.dir
+/home/emarquez/codigo/github/EjemplosCpp/sobrecargaOperadores/cmake-build-debug/CMakeFiles/edit_cache.dir

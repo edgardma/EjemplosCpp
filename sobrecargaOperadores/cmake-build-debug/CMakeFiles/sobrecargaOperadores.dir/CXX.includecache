@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emarquez/codigo/github/EjemplosCpp/sobrecargaOperadores/Moneda.h
+
+/home/emarquez/codigo/github/EjemplosCpp/sobrecargaOperadores/main.cpp
+iostream
+-
+Moneda.h
+/home/emarquez/codigo/github/EjemplosCpp/sobrecargaOperadores/Moneda.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sobrecargaOperadores.dir/main.cpp.o CMakeFiles/sobrecargaOperadores.dir/Moneda.cpp.o  -o sobrecargaOperadores 
